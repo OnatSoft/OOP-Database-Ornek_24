@@ -119,5 +119,12 @@ namespace OOP_DatabaseTest_24
             textBox3.Clear();
             textBox4.Clear();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Ornek2 frm2 = new Ornek2();
+            frm2.Show();
+            this.Hide();
+        }
     }
 }

@@ -74,6 +74,7 @@ namespace OOP_DatabaseTest_24
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(33, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 20);
@@ -83,6 +84,7 @@ namespace OOP_DatabaseTest_24
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(33, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 20);
@@ -99,6 +101,7 @@ namespace OOP_DatabaseTest_24
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(33, 91);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 20);
@@ -115,6 +118,7 @@ namespace OOP_DatabaseTest_24
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(33, 127);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(104, 20);
@@ -143,7 +147,7 @@ namespace OOP_DatabaseTest_24
             // 
             // btn_Listele
             // 
-            this.btn_Listele.BackColor = System.Drawing.Color.White;
+            this.btn_Listele.BackColor = System.Drawing.Color.Gold;
             this.btn_Listele.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Listele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Listele.Location = new System.Drawing.Point(359, 120);
@@ -195,24 +199,24 @@ namespace OOP_DatabaseTest_24
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(668, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 30);
             this.button1.TabIndex = 14;
             this.button1.Text = "2. Form";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(781, 501);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_Temizle);
@@ -234,7 +238,7 @@ namespace OOP_DatabaseTest_24
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Kişisel Kitaplık - Örnek 1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

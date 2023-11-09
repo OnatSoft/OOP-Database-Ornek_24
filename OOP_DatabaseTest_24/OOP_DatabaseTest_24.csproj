@@ -54,10 +54,21 @@
     </Compile>
     <Compile Include="Kitap.cs" />
     <Compile Include="KitapDB.cs" />
+    <Compile Include="Ornek2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ornek2.Designer.cs">
+      <DependentUpon>Ornek2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UrunDB.cs" />
+    <Compile Include="Urunler.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ornek2.resx">
+      <DependentUpon>Ornek2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
