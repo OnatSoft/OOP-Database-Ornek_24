@@ -9,7 +9,7 @@ namespace OOP_DatabaseTest_24
 {
     class KitapDB
     {
-        SqlConnection baglanti = new SqlConnection(@"Data Source=LAPTOP-ONATSOFT\ONATSOFT;Initial Catalog=KitaplikOOP_DB;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"connection string");
 
         public List<Kitap> ktpListe()
         {
